@@ -1,0 +1,70 @@
+*, *:before, *:after {
+ box-sizing: border-box;
+}
+
+.arrival-time {
+  float: right;
+  width: 25%;
+  padding-top: 30px;
+  font-size: 16px;
+}
+
+.navy {
+  color: 011E35;
+}
+
+.bus-stop {
+  float: none;
+  text-align: center;
+  color: #011E35;
+  font-size: 24px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 420px;
+}
+
+.content {
+  float:left;
+  width: 75%;
+  padding-top: 25px;
+  padding-left: 20px;
+}
+
+.location {
+  background-color: #145180;
+  margin: 1px;
+  height: 80px;
+  overflow: hidden;
+}
+
+.location:hover {
+  background-color: #08385D;
+}
+nav {
+  background-color: #CFDBE4;
+  margin: 0 auto;
+  padding: 10px 0 15px 15px;
+  position: fixed;
+  width: 420px;
+}
+
+/* common styles */
+
+body {
+  background-color: #dadada;
+  font-family: sf pro text;
+  color: #E8EDF2;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+h1 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.bus-routes {
+  padding-top: 75px;
+}
