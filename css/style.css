@@ -9,8 +9,11 @@
   font-size: 16px;
 }
 
-.navy {
-  color: 011E35;
+.arrow-left {
+  width: 20px;
+  float: left;
+  color: #011E35;
+  padding-top: 5px;
 }
 
 .bus-stop {
@@ -18,6 +21,7 @@
   text-align: center;
   color: #011E35;
   font-size: 24px;
+  padding-top: 10px;
 }
 
 .container {
@@ -34,20 +38,22 @@
 
 .location {
   background-color: #145180;
-  margin: 1px;
   height: 80px;
   overflow: hidden;
+  border-bottom: 1px solid #dadada;
 }
 
 .location:hover {
   background-color: #08385D;
 }
+
 nav {
   background-color: #CFDBE4;
   margin: 0 auto;
   padding: 10px 0 15px 15px;
   position: fixed;
   width: 420px;
+  height: 60px;
 }
 
 /* common styles */
@@ -66,5 +72,5 @@ h1 {
 }
 
 .bus-routes {
-  padding-top: 75px;
+  padding-top: 60px;
 }
